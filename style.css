@@ -1,0 +1,68 @@
+#header
+{
+    background-color: grey;
+    padding-top:2%;
+    min-height:250px;
+    text-align: center;
+    color:white;
+    font-size:larger;
+}
+
+i
+{
+    color:whitesmoke;
+}
+
+#navBar
+{
+    background-color:black;
+    min-height: 100px;
+}
+
+#navButton
+{
+    width:12%;
+    height:15%;
+    padding:20px;
+    color:white;
+    float:left;
+    /*border:1px solid white;*/
+}
+
+#contentPanel
+{
+    color:white;
+    background-color:blue;
+    width:23%;
+    min-height: 350px;
+    height:80%;
+    inline-size: block;
+    float:left;
+    margin:1%;
+}
+
+#mainContent
+{
+    background-color:grey;
+    min-height:400px;
+}
+
+#footerContent
+{
+    background-color:goldenrod;
+    min-height:150px;
+    color:white;
+    text-align:center;
+    padding-top:20px;
+}
+
+body
+{
+    margin: 0% 5% 0% 5%;
+    background-color: black;
+}
+
+#landingPage
+{
+    padding:20px;
+}
