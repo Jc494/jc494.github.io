@@ -94,3 +94,19 @@ body
 {
     padding:20px;
 }
+
+#accountPage
+{
+    padding-top: 20px;
+    /*border: 1px white solid;*/
+    text-align:center;
+    color:white;
+    min-height: 400px;
+
+}
+
+#accountPage a
+{
+    color:turquoise;
+    font-size: larger;
+}
