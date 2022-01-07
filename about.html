@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="style.css"/>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
 
+    <link rel="stylesheet" href= "/slick/slick.css">
+    <link rel="stylesheet" href="/slick/slick-theme.css">
+
 
     <title>Card Casino</title>
 </head>
@@ -51,15 +54,39 @@
 
     </div>
 
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="slick/slick.js"></script>
+
     <div id="mainContent">
         <div id="landingPage">
             <h1>About Us</h1>
             
+            <div class ="demo">
+                <div><img src="/img/cards1.png"></div>
+                <div><img src="/img/cards2.png"></div>
+                <div><img src="/img/cards3.png"></div>
+                <div><img src="/img/cards4.png"></div>
+                <div><img src="/img/cards5.png"></div>
+            </div>
+
+
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque est nec ullamcorper tempor. Nulla porta mauris sit amet massa porttitor, eget fringilla neque aliquet. Mauris commodo molestie scelerisque. Sed interdum nulla at velit dictum, a ultrices sem sollicitudin. Ut venenatis egestas nulla quis elementum. Vestibulum est tortor, iaculis eu suscipit in, aliquam eget mi. Donec accumsan, lectus id commodo semper, leo eros malesuada urna, ut fermentum arcu sem in sem. Curabitur neque nulla, gravida a sem at, pretium ultrices neque. Cras a ligula euismod, ultricies sem eu, lacinia dui. Donec imperdiet placerat molestie. Donec nisi lectus, viverra in eros nec, ultricies tincidunt dui. Praesent eu augue sit amet nibh aliquet pretium. Mauris mattis sagittis nibh vitae convallis. Aliquam erat volutpat.  
             </p>
         </div>
     </div>
+
+    <script>
+        $(document).ready(function(){
+            $('.demo').slick({
+                dots:true,
+                infinite: true,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                autoplay: true,
+            });
+        });
+    </script>
 
     <div id="footerContent">
         <i class="fas fa-copyright"> Fluid Design</i>
