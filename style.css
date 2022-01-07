@@ -110,3 +110,18 @@ body
     color:turquoise;
     font-size: larger;
 }
+
+#landingPage h1
+{
+    color:white;
+    text-align: center;
+}
+
+#landingPage p
+{
+    color:white;
+    text-align: center;
+    margin-left: 10%;
+    margin-right:10%;
+    font-size: larger;
+}
