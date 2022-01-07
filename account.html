@@ -9,6 +9,34 @@
 
 
     <title>Card Casino</title>
+
+    <script>
+
+        function checkLogin()
+        {
+            let vUsername = document.forms["loginForm"]["fUser"].value;
+            let vPassword = document.forms["loginForm"]["fPassword"].value;
+
+            if(vUsername == "")
+            {
+                alert("Enter your username!");
+                return false;
+            }
+
+            if(vPassword == "")
+            {
+                alert("Enter your password!");
+                return false;
+            }
+
+            if(vUsername != "" && vPassword != "")
+            {
+              alert("You are logged in!");
+            }
+        }
+
+    </script>
+
 </head>
 <body>
     <header id="header">
@@ -57,12 +85,17 @@
                 Account Login
             </h1>
 
+
             <p>Enter your details to login!</p>
-            <label>Username:</label> <input type="text"/>
-            <br/>
-            <label>Password :</label> <input type="password"/>
-            <br/><br/>
-            <input type="button" value="Login"/>
+            <form name="loginForm" action="index.html" onsubmit="return checkLogin()" method="get">
+
+                <label>Username:</label> <input type="text" name="fUser"/>
+                <br/>
+                <label>Password :</label> <input type="password" name="fPassword"/>
+                <br/><br/>
+
+              <input type="submit" value="Login"/>
+            </form>
 
             <hr/>
 
