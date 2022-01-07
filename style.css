@@ -211,8 +211,6 @@ body
     position:relative;
 }
 
-
-
 #gameHolder img#hoverImg:hover
 {
    opacity: 0.8;
@@ -256,6 +254,18 @@ body
 
 }
 
+#carouselHolder
+{
+    width:50%;
+    margin-left: 25%;
+}
+
+.demo img
+{
+    width: 100%;
+    height: auto;
+}
+
 @media only screen and (min-width:481px) and (max-width:768px)
 {
 
@@ -272,4 +282,6 @@ body
         min-width: 17%;
         min-height: 35%;
     }
+
+
 }
