@@ -26,7 +26,7 @@ i
     min-height: 100px;
 }
 
-#navButton
+.navButton
 {
     width:16%;
     height:10%;
@@ -38,7 +38,7 @@ i
 
 }
 
-#navButton:hover
+.navButton:hover
 {
     background-color:white;
     border:3px solid red;
@@ -64,7 +64,6 @@ i
     width:23%;
     min-height: 350px;
     height:80%;
-    inline-size: block;
     float:left;
     margin:1%;
 }
@@ -214,7 +213,7 @@ body
     display:inline-block;
 }
 
-#gameHolder img#hoverImg:hover
+#gameHolder img.hoverImg:hover
 {
    opacity: 0.8;
    border: 2px solid white;
@@ -280,7 +279,7 @@ input.error, textarea.error {
     }
 
     
-    #gameHolder img#hoverImg
+    #gameHolder img.hoverImg
     {
         opacity: 0;
         position:absolute;
@@ -317,7 +316,7 @@ input.error, textarea.error {
 
 @media only screen and (min-width:769px)
 {
-    #gameHolder img#hoverImg
+    #gameHolder img.hoverImg
     {
         opacity: 0;
         margin-left: -18.5%;
